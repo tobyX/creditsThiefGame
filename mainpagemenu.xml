@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+
+		<userguthabenmainpage name="wcf.guthaben.mainpage.thiefgame">
+			<icon>guthabenTransferL.png</icon>
+			<link>page=guthabenThiefGame</link>
+			<showorder>1</showorder>
+			<description>wcf.guthaben.mainpage.thiefgame.description</description>
+			<parent>gamePage</parent>
+			<permissions>guthaben.thief.canuse</permissions>
+		</userguthabenmainpage>
+
+	</import>
+</data>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="guthaben.thief">
+				<parent>guthaben</parent>
+			</category>
+		</categories>
+	
+		<options>
+
+			<!-- earn -->
+			<option name="guthaben_earn_per_ambush">
+				<categoryname>guthaben.earn</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+			</option>
+			<!-- earn -->
+			
+			<!-- thief -->
+			<option name="guthaben_ambushes_per_time">
+				<categoryname>guthaben.thief</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+			</option>
+			<option name="guthaben_ambushes_per_prey">
+				<categoryname>guthaben.thief</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>1440</defaultvalue>
+			</option>
+			<!-- thief -->
+
+		</options>
+	</import>
+</data>

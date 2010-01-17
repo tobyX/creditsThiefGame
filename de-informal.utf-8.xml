@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="de">
+
+	<category name="wcf.guthaben.log">
+		<item name="wcf.guthaben.log.ambushuser"><![CDATA[Überfallener Benutzer:]]></item>
+		<item name="wcf.guthaben.log.ambushedbyuser"><![CDATA[Überfallen durch:]]></item>
+		<item name="wcf.guthaben.log.ambushguest"><![CDATA[Überfallener Gast]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.guthaben.thief"><![CDATA[Diebspiel]]></item>
+		<item name="wcf.acp.option.category.guthaben.thief.description"><![CDATA[Einstellungen für das Diebspiel]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_ambush"><![CDATA[Guthaben pro überfallener Person]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_ambush.description"><![CDATA[Pro überfallener Person wird dem Benutzer diese Summe gutgeschrieben.]]></item>
+		<item name="wcf.acp.option.guthaben_ambushes_per_time"><![CDATA[Pause zwischen Überfällen]]></item>
+		<item name="wcf.acp.option.guthaben_ambushes_per_time.description"><![CDATA[Wie oft kann jemand einen Überfall starten (in Minuten)? Das ist ein Bruteforceschutz.]]></item>
+		<item name="wcf.acp.option.guthaben_ambushes_per_prey"><![CDATA[Pause zwischen Überfällen pro Person]]></item>
+		<item name="wcf.acp.option.guthaben_ambushes_per_prey.description"><![CDATA[In welchen Abständen kann die gleiche Person überfallen werden?]]></item>
+	</category>
+
+	<category name="wcf.guthaben.prices">
+		<item name="wcf.guthaben.prices.earnambush"><![CDATA[Einkommen pro überfallener Person]]></item>
+		<item name="wcf.guthaben.prices.earnambush.desc"><![CDATA[Dieser Betrag wird Dir pro überfallener Person gutgeschrieben (oder bei einem Überfall abgezogen).]]></item>
+	</category>
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.ambush"><![CDATA[Durchgeführte Überfälle]]></item>
+		<item name="wcf.user.option.ambush.description"><![CDATA[Wie oft hat dieser Benutzer jemanden überfallen?]]></item>
+		<item name="wcf.user.option.ambushed"><![CDATA[Überfallen worden]]></item>
+		<item name="wcf.user.option.ambushed.description"><![CDATA[Wie oft wurde dieser Benutzer überfallen?]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.guthaben.thief.canuse"><![CDATA[Kann im Diebspiel überfallen werden]]></item>
+		<item name="wcf.acp.group.option.guthaben.thief.canuse.description"><![CDATA[]]></item>
+	</category>
+	
+	<category name="wcf.guthaben.thief">
+		<item name="wcf.guthaben.thief.ambushguest"><![CDATA[Du wurdest überfallen und verlierst dabei {$loot}!<br /> Wenn Du dich rächen willst, <a href="index.php?page=Register">registriere</a> dich und locke {$username} danach in die Falle!]]></item>
+		<item name="wcf.guthaben.thief.ambushuser"><![CDATA[{$username} hat Dich überfallen und Dir {$loot} geraubt!]]></item>
+		<item name="wcf.guthaben.thief.title"><![CDATA[Raubüberfall!]]></item>
+	</category>
+
+	<category name="wcf.guthaben.thiefgame">
+		<item name="wcf.guthaben.thiefgame.title"><![CDATA[Diebspiel]]></item>
+		<item name="wcf.guthaben.thiefgame.description"><![CDATA[Im Diebspiel versucht man, möglichst viele andere Benutzer oder Gäste auf die eigene Diebseite zu locken.]]></item>
+		<item name="wcf.guthaben.thiefgame.link"><![CDATA[Locke möglichst viele Menschen auf<br / ><br / ><strong>{PAGE_URL}/index.php?page=GuthabenRelocate&userID={$this->user->userID}</strong><br /><br / ><br / >Bedenke aber, nicht jeder mag diese Art von Spielen und sie sind auch nicht überall erlaubt!<br />Bevor Du den Link in anderen Foren verwendest lese dort bitte die entsprechenden Nutzungsbedingungen nach!]]></item>
+	</category>
+
+</language>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+	
+		<guthabenprices name="wcf.guthaben.prices.earnambush">
+			<description>wcf.guthaben.prices.earnambush.desc</description>
+			<price>GUTHABEN_EARN_PER_AMBUSH</price>
+		</guthabenprices>
+
+	</import>
+</data>
