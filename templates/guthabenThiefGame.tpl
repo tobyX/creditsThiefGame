@@ -18,7 +18,7 @@
 	<div class="mainHeadline">
 		<img src="{icon}guthabenTransferL.png{/icon}" alt="" />
 		<div class="headlineContainer">
-			<h2>{lang}wcf.guthaben.mainpage.thiefgame.title{/lang}</h2>
+			<h2>{lang}wcf.guthaben.mainpage.thiefgame{/lang}</h2>
 			<p>{lang}wcf.guthaben.mainpage.thiefgame.description{/lang}</p>
 		</div>
 	</div>

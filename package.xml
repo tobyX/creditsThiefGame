@@ -7,7 +7,7 @@
 		<isUnique>1</isUnique>
 		<packageDescription>Andere Benutzer und Gäste können über Ref-Links "beklaut" werden.</packageDescription>
 		<standalone>0</standalone>
-		<version>1.0.0-beta</version>
+		<version>1.0.0</version>
 		<date>2010-01-17</date>
 		<plugin>com.woltlab.wcf</plugin>
 	</packageInformation>
@@ -33,6 +33,12 @@
 		<guthabenmainpage>mainpagemenu.xml</guthabenmainpage>
 		<groupoptions>groupoptions.xml</groupoptions>
 		<sql>install.sql</sql>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0-beta*">
+		<templates>templates.tar</templates>
+		<languages languagecode="de">de.utf-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
 	</instructions>
 	
 </package>
