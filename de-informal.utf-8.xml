@@ -42,10 +42,10 @@
 		<item name="wcf.guthaben.thief.title"><![CDATA[Raubüberfall!]]></item>
 	</category>
 
-	<category name="wcf.guthaben.thiefgame">
-		<item name="wcf.guthaben.thiefgame"><![CDATA[Diebspiel]]></item>
-		<item name="wcf.guthaben.thiefgame.description"><![CDATA[Im Diebspiel versucht man, möglichst viele andere Benutzer oder Gäste auf die eigene Diebseite zu locken.]]></item>
-		<item name="wcf.guthaben.thiefgame.link"><![CDATA[Locke möglichst viele Menschen auf<br / ><br / ><strong>{PAGE_URL}/index.php?page=GuthabenRelocate&userID={$this->user->userID}</strong><br /><br / ><br / >Bedenke aber, nicht jeder mag diese Art von Spielen und sie sind auch nicht überall erlaubt!<br />Bevor Du den Link in anderen Foren verwendest lese dort bitte die entsprechenden Nutzungsbedingungen nach!]]></item>
+	<category name="wcf.guthaben.mainpage">
+		<item name="wcf.guthaben.mainpage.thiefgame"><![CDATA[Diebspiel]]></item>
+		<item name="wcf.guthaben.mainpage.thiefgame.description"><![CDATA[Im Diebspiel versucht man, möglichst viele andere Benutzer oder Gäste auf die eigene Diebseite zu locken.]]></item>
+		<item name="wcf.guthaben.mainpage.thiefgame.link"><![CDATA[Locke möglichst viele Menschen auf<br / ><br / ><strong>{PAGE_URL}/index.php?page=GuthabenRelocate&userID={$this->user->userID}</strong><br /><br / ><br / >Bedenke aber, nicht jeder mag diese Art von Spielen und sie sind auch nicht überall erlaubt!<br />Bevor Du den Link in anderen Foren verwendest lese dort bitte die entsprechenden Nutzungsbedingungen nach!]]></item>
 	</category>
 
 </language>
